@@ -23,7 +23,7 @@ func Day01_Puzzle2(input []int) string {
 	}
 
 	count := 0
-	var previous = input[0] + input[1] + input[2]
+	previous := input[0] + input[1] + input[2]
 
 	// skip the first three elements, as we are using a 3-element sliding window
 	// and comparison begins with the second window
