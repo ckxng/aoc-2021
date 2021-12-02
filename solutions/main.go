@@ -1,9 +1,11 @@
 package main
 
 import (
+	"fmt"
+
 	advent "github.com/ckxng/aoc-2021"
 )
 
 func main() {
-	advent.Main()
+	fmt.Print(advent.FormatResults(advent.Run()))
 }

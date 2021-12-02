@@ -42,7 +42,3 @@ func FormatResults(results []Puzzle) string {
 	}
 	return sresults
 }
-
-func Main() {
-	fmt.Print(FormatResults(Run()))
-}
