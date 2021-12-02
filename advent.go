@@ -17,6 +17,14 @@ func Run() []Puzzle {
 			name:   "Advent of Code 2021 Day 1 Puzzle 2",
 			result: Day01_Puzzle2(input_day01),
 		},
+		{
+			name:   "Advent of Code 2021 Day 2 Puzzle 1",
+			result: Day02_Puzzle1(input_day02),
+		},
+		{
+			name:   "Advent of Code 2021 Day 2 Puzzle 2",
+			result: Day02_Puzzle2(input_day02),
+		},
 	}
 
 	return results
